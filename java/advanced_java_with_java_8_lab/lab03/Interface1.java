@@ -5,7 +5,7 @@ public interface Interface1 {
 
 	public void printSquareOfA(int a);
 	
-	default void defaultPrintSquareOfA(int a) {
+	default void defPrintSquareOfA(int a) {
 		System.out.println(a * a);
 	}
 	

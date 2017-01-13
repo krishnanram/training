@@ -20,5 +20,8 @@ public class LambdaTest {
 
 		DoubleSupplier i4 = () -> Math.PI;
 		System.out.println(i4.getAsDouble());
+		
+		
+		
 	}
 }

@@ -6,7 +6,7 @@ public class LambdaTest {
 
 		// Need to instantiate the lambda to access the default instance method.
 		Interface1 i1 = x -> {};
-		i1.defaultPrintSquareOfA(3);
+		i1.defPrintSquareOfA(3);
 
 		// Need to instantiate the lambda to access the default instance method.
 		Interface2 i2 = x -> 0;
